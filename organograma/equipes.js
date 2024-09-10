@@ -1,3 +1,69 @@
+var tel = {
+  adrianarola: '984-099-431',
+  adrianamacedo: '',
+  afonso: '984-701-132',
+  amarildo: '999-242-901',
+  andre: '',
+  antonio: '984-188-849',
+  barretao: '984-690-241',
+  betinho: '984-964-833',
+  bianca: '984-436-560',
+  bruna: '',
+  carla: '984-326-655',
+  carloshamilton: '',
+  carlosmaciel: '984-007-703',
+  cidinho: '984-065-542',
+  cristiano: '',
+  cristina: '984-336-535',
+  dayane: '984-879-810',
+  dede: '999-185-541',
+  dora: '984-532-653',
+  flavio: '',
+  galdino: '999-501-607',
+  giovania: '985-066-525',
+  ines: '',
+  helton: '984-140-600',
+  laercio: '984-691-583',
+  leonardo: '',
+  leidijane: '984-215-105',
+  lucas: '998-479-116',
+  jj: '998-627-265',
+  magda: '984-227-049',
+  marcelinho: '984-191-971',
+  marcinho: '984-215-156',
+  mariaclara: '',
+  marialuana: '',
+  maryna: '',
+  magninho: '',
+  marquinho: '984-314-145',
+  marquinhoeletricista: '',
+  maycon: '985-089-004',
+  mazinho: '998-044-186',
+  preto: '984-689-960',
+  priscila: '(22) 999-162-366',
+  rafael: '984-980-726',
+  raimundo: '',
+  rhaquel: '999-070-842',
+  roberto: '984-689-350',
+  rodriguinho: '984-772-020',
+  ronaldo: '985-016-782',
+  ronaldorosendo: '984-069-820',
+  rosilda: '984-026-530',
+  sandra: '',
+  simone: '984-261-248',
+  otavio: '',
+  tao: '984-632-044',
+  taylor: '999-085-163',
+  titico: '984-957-457',
+  toninho: '984-314-070',
+  vang: '999-315-597',
+  vinicius: '',
+  viviane: '985-159-022',
+  weverton: '984-033-122',
+  zegeraldo: '985-049-848',
+  zemaria: '',
+  zequinha: '999-440-611'
+}
 var chart = JSC.chart('chartDiv', {
     debug: true,
     type: 'organizational down',
@@ -6,7 +72,7 @@ var chart = JSC.chart('chartDiv', {
       {
         defaultPoint: {
           label: {
-            text: '<b>%name</b><br/>%pos',
+            text: '<b>%name</b><br/>%pos<br/>%telefone',
             autoWrap: true
           },
           connectorLine_color: '#747c72',
@@ -33,7 +99,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.dora
             }
           },
           {
@@ -54,7 +120,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.zegeraldo
             }
           },
           {
@@ -73,7 +139,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.zequinha
             }
           },
           {
@@ -92,7 +158,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.laercio
             }
           },
           {
@@ -112,7 +178,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Líder',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.cidinho
             }
           },
           {
@@ -131,7 +197,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.toninho
             }
           },
           {
@@ -150,7 +216,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.raimundo
             }
           },
           {
@@ -169,7 +235,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.mazinho
             }
           },
           {
@@ -188,7 +254,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'co',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.magda
             }
           },
           {
@@ -227,7 +293,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.zequinha
             }
           },
           {
@@ -236,7 +302,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.galdino
             }
           },
           {
@@ -245,7 +311,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.marcelinho
             }
           },
           {
@@ -254,7 +320,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.magninho
             }
           },
           {
@@ -263,7 +329,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.cristiano
             }
           },
           {
@@ -272,7 +338,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.amarildo
             }
           },
           {
@@ -281,7 +347,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.leonardo
             }
           },
           {
@@ -290,7 +356,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.roberto
             }
           },
           {
@@ -299,7 +365,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.vang
             }
           },
           {
@@ -308,7 +374,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'transporte',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.lucas
             }
           },
           {
@@ -317,7 +383,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.vinicius
             }
           },
           {
@@ -326,7 +392,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.marquinho
             }
           },
           {
@@ -335,7 +401,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.titico
             }
           },
           {
@@ -344,7 +410,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.ronaldo
             }
           },
           {
@@ -353,7 +419,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.maycon
             }
           },
           {
@@ -362,7 +428,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.rafael
             }
           },
           {
@@ -371,7 +437,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.zemaria
             }
           },
           {
@@ -380,7 +446,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.rhaquel
             }
           },
           {
@@ -389,7 +455,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'visual',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.bruna
             }
           },
           {
@@ -398,7 +464,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'agito',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.mazinho
             }
           },
           {
@@ -407,7 +473,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'agito',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.taylor
             }
           },
           {
@@ -416,7 +482,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'agito',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.afonso
             }
           },
           {
@@ -425,7 +491,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'agito',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.jj
             }
           },
           {
@@ -434,7 +500,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'agito',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.otavio
             }
           },
           {
@@ -443,7 +509,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.preto
             }
           },
           {
@@ -452,7 +518,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.rodriguinho
             }
           },
           {
@@ -461,7 +527,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.zegeraldo
             }
           },
           {
@@ -470,7 +536,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.toninho
             }
           },
           {
@@ -479,7 +545,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.helton
             }
           },
           {
@@ -488,7 +554,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.ronaldorosendo
             }
           },
           {
@@ -497,7 +563,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.barretao
             }
           },
           {
@@ -506,7 +572,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.marquinhoeletricista
             }
           },
           {
@@ -515,7 +581,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'som',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.andre
             }
           },
           {
@@ -524,7 +590,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.magda
             }
           },
           {
@@ -533,7 +599,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.simone
             }
           },
           {
@@ -542,7 +608,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.dora
             }
           },
           {
@@ -551,7 +617,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.dayane
             }
           },
           {
@@ -560,7 +626,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.adrianamacedo
             }
           },
           {
@@ -569,7 +635,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.adrianarola
             }
           },
           {
@@ -578,7 +644,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.cristina
             }
           },
           {
@@ -587,7 +653,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.bianca
             }
           },
           {
@@ -596,7 +662,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ornamento',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.leidijane
             }
           },
           {
@@ -605,7 +671,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'marketing',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.carloshamilton
             }
           },
           {
@@ -614,7 +680,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'marketing',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.giovania
             }
           },
           {
@@ -623,7 +689,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'marketing',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.cristina
             }
           },
           {
@@ -632,7 +698,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'marketing',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.mariaclara
             }
           },
           {
@@ -641,7 +707,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'marketing',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.dede
             }
           },
           {
@@ -650,7 +716,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'marketing',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.magda
             }
           },
           {
@@ -659,7 +725,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'marketing',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.marcinho
             }
           },
           {
@@ -668,7 +734,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'marketing',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.antonio
             }
           },
           {
@@ -677,7 +743,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'buscadores',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.antonio
             }
           },
           {
@@ -686,7 +752,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'buscadores',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.tao
             }
           },
           {
@@ -695,7 +761,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'buscadores',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.carlosmaciel
             }
           },
           {
@@ -704,7 +770,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'buscadores',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.viviane
             }
           },
           {
@@ -713,7 +779,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'buscadores',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.betinho
             }
           },
           {
@@ -722,7 +788,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'buscadores',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.raimundo
             }
           },
           {
@@ -731,7 +797,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.dora
             }
           },
           {
@@ -740,7 +806,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.ines
             }
           },
           {
@@ -749,7 +815,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.mazinho
             }
           },
           {
@@ -758,7 +824,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.rosilda
             }
           },
           {
@@ -767,7 +833,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.adrianarola
             }
           },
           {
@@ -776,7 +842,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.simone
             }
           },
           {
@@ -785,7 +851,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.toninho
             }
           },
           {
@@ -794,7 +860,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.zegeraldo
             }
           },
           {
@@ -803,7 +869,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.priscila
             }
           },
           {
@@ -812,7 +878,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.flavio
             }
           },
           {
@@ -821,7 +887,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.marialuana
             }
           },
           {
@@ -830,7 +896,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'comite',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.sandra
             }
           },
           {
@@ -839,7 +905,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ronda',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.zequinha
             }
           },
           {
@@ -848,7 +914,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ronda',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.mazinho
             }
           },
           {
@@ -857,7 +923,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'ronda',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.flavio
             }
           },
           {
@@ -866,7 +932,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'financas',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.raimundo
             }
           },
           {
@@ -875,7 +941,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'financas',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.carla
             }
           },
           {
@@ -884,7 +950,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'financas',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.rosilda
             }
           },
           {
@@ -893,7 +959,7 @@ var chart = JSC.chart('chartDiv', {
             parent: 'financas',
             attributes: {
               pos: 'Associado',
-              telefone: 'XXXX-XXXX'
+              telefone: tel.maryna
             }
           }
         ]
