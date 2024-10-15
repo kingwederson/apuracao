@@ -1,0 +1,106 @@
+body{
+    font-family: 'FreeSans', sans-serif;
+    font-size: 18pt;
+}
+div#caixaPM{
+    max-width: 1000px;
+    margin:auto;
+    padding:100px;
+    background-color: #aaa;
+}
+td{
+    background-color: #fff;
+    color: #000;
+}
+table.cabecalhodecaixa{
+    background-color: #fff;
+}
+td.cargoemdisputa{
+    background-color: #555;
+    color: #fff;
+    padding: 2px 17px;
+    border-radius: 7px;
+    font-size: 1em;
+}
+table{
+    width:100%;
+    /*border: 1px solid black;*/
+}
+/*td{border: 1px solid black;}*/
+td.logoapurador{
+    background-color: #fff;
+}
+td.logoapurador img{
+    max-width: 160px;
+}
+td.nomelocal{
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'Ubuntu Condensed';
+    background-color: #fff;
+}
+tr{
+    margin-top:12px;
+}
+tr.linhadocandidato table td{
+    background-color: #fff;
+}
+td.fotodoscandidatos{
+    background-color: #fff;
+    text-align: center;
+    width: 40px;
+}
+td.fotodoscandidatos img{
+    width: auto;
+    height: 72px;
+    margin:0px;
+}
+td.nomedoscandidatos{
+    background-color: #fff;
+}
+td.nomedoscandidatos td.nomedotitular{
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+td.nomedoscandidatos td.nomedovice{
+    font-weight: bold;
+    font-size: 1em;
+}
+td.nomedoscandidatos, td.nomedaestatistica{
+    font-weight: bold;
+    font-size: 1em;
+}
+td.votosdediferenca{
+    font-weight: 900;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #fff;
+}
+td.numeropercentual{
+    font-weight: 900;
+    font-size: 1.3em;
+    text-align: right;
+    background-color: #fff;
+}
+td.votosdoscandidatos{
+    padding:0px 7px 0px 0px;
+    text-align: right;
+    padding:0px 12px;
+    font-size: 1.8em;
+    font-weight: 1000;
+    background-color: #fff;
+}
+td#celulavotosreportados{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+progress{
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    color: white;
+    background-image: green;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

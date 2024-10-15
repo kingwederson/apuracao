@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <meta http-equiv="refresh" content="60">
+    <title>Apurador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="apurador.js"></script>
+</head>
+<body>
+    <div id="caixaPM">
+        <table>
+
+            <tr>
+                <td colspan="6">
+                    <table class="cabecalhodecaixa">
+                        <tr>
+                            <td class="logoapurador"><img src="imagem/logo-eleicao.jpeg"></td>
+                            <td class="nomelocal">BOM JARDIM DE MINAS</td>
+                        </tr>
+                        <tr>
+                            <td class="cargoemdisputa" colspan="2">PREFEITO</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!--Linha do candidato 1-->
+            <tr class="linhadocandidato pos1">
+                <td>1<sup><u>o</u></sup></td>
+                <td class="fotodoscandidatos pos1"><img class="imgdocandidato"></td>
+                <td class="nomedoscandidatos pos1">
+                    <table>
+                        <tr>
+                            <td class="nomedotitular pos1">TITULAR</td>
+                        </tr>
+                        <tr>
+                            <td class="nomedovice pos1">VICE</td>
+                        </tr>
+                    </table>
+                </td>                             
+                <td class="votosdediferenca pos1">0</td>
+                <td class="numeropercentual pos1">0.00%</td>
+                <td class="votosdoscandidatos pos1">0</td>
+            </tr>
+
+            <!--Linha do candidato 2-->
+            <tr class="linhadocandidato pos2">
+                <td>2<sup><u>o</u></sup></td>
+                <td class="fotodoscandidatos pos2"><img class="imgdocandidato"></td>
+                <td class="nomedoscandidatos pos2">
+                    <table>
+                        <tr>
+                            <td class="nomedotitular pos2">TITULAR</td>
+                        </tr>
+                        <tr>
+                            <td class="nomedovice pos2">VICE</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="votosdediferenca pos2">0</td>
+                <td class="numeropercentual pos2">0.00%</td>
+                <td class="votosdoscandidatos pos2">0</td>
+            </tr>
+
+            <!--Linha dos válidos-->
+            <tr class="linhadocandidato validos">
+                <td></td>
+                <td class="fotodoscandidatos validos">&#9745</td>
+                <td class="nomedoscandidatos validos">
+                    <table>
+                        <tr>
+                            <td class="nomedaestatistica validos">VÁLIDOS</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="votosdediferenca validos"></td>
+                <td class="numeropercentual validos">0.00%</td>
+                <td class="votosdoscandidatos validos">0</td>
+            </tr>
+
+            <!--Linha dos brancos-->
+            <tr class="linhadocandidato brancos">
+                <td></td>
+                <td class="fotodoscandidatos brancos">&#9744</td>
+                <td class="nomedoscandidatos brancos">
+                    <table>
+                        <tr>
+                            <td class="nomedaestatistica brancos">BRANCOS</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="votosdediferenca brancos"></td>
+                <td class="numeropercentual brancos">0.00%</td>
+                <td class="votosdoscandidatos brancos">0</td>
+            </tr>
+
+            <!--Linha dos nulos-->
+            <tr class="linhadocandidato nulos">
+                <td></td>
+                <td class="fotodoscandidatos nulos">&#9746</td>
+                <td class="nomedoscandidatos nulos">
+                    <table>
+                        <tr>
+                            <td class="nomedaestatistica nulos">NULOS</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="votosdediferenca nulos"></td>
+                <td class="numeropercentual nulos">0.00%</td>
+                <td class="votosdoscandidatos nulos">0</td>
+            </tr>
+            <tr>
+                <td id="celulavotosreportados" colspan="6">
+                    
+                    VOTOS REPORTADOS: <span id="votosreportados"></span><progress id="reporting" value="0" max="100"></progress>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+{
+    "prefeito": {
+        "s64": {
+            "chiquinho": 153,
+            "everaldo": 114,
+            "brancos": 0,
+            "nulos": 7,
+            "aptos": 318
+        },
+        "s65": {
+            "chiquinho": 149,
+            "everaldo": 121,
+            "brancos": 2,
+            "nulos": 4,
+            "aptos": 319
+        },
+        "s67": {
+            "chiquinho": 157,
+            "everaldo": 112,
+            "brancos": 2,
+            "nulos": 6,
+            "aptos": 312
+        },
+        "s68": {
+            "chiquinho": 133,
+            "everaldo": 132,
+            "brancos": 1,
+            "nulos": 3,
+            "aptos": 312
+        },
+        "s69": {
+            "chiquinho": 157,
+            "everaldo": 112,
+            "brancos": 3,
+            "nulos": 3,
+            "aptos": 311
+        },
+        "s70": {
+            "chiquinho": 148,
+            "everaldo": 109,
+            "brancos": 2,
+            "nulos": 6,
+            "aptos": 314
+        },
+        "s71": {
+            "chiquinho": 141,
+            "everaldo": 136,
+            "brancos": 4,
+            "nulos": 4,
+            "aptos": 338
+        },
+        "s72": {
+            "chiquinho": 158,
+            "everaldo": 131,
+            "brancos": 1,
+            "nulos": 5,
+            "aptos": 337
+        },
+        "s73": {
+            "chiquinho": 159,
+            "everaldo": 131,
+            "brancos": 0,
+            "nulos": 9,
+            "aptos": 338
+        },
+        "s74": {
+            "chiquinho": 178,
+            "everaldo": 108,
+            "brancos": 6,
+            "nulos": 3,
+            "aptos": 338
+        },
+        "s75": {
+            "chiquinho": 161,
+            "everaldo": 131,
+            "brancos": 4,
+            "nulos": 7,
+            "aptos": 339
+        },
+        "s76": {
+            "chiquinho": 158,
+            "everaldo": 141,
+            "brancos": 5,
+            "nulos": 7,
+            "aptos": 339
+        },
+        "s77": {
+            "chiquinho": 193,
+            "everaldo": 105,
+            "brancos": 2,
+            "nulos": 3,
+            "aptos": 346
+        },
+        "s80": {
+            "chiquinho": 116,
+            "everaldo": 80,
+            "brancos": 4,
+            "nulos": 3,
+            "aptos": 222
+        },
+        "s81": {
+            "chiquinho": 105,
+            "everaldo": 82,
+            "brancos": 2,
+            "nulos": 7,
+            "aptos": 228
+        },
+        "s83": {
+            "chiquinho": 116,
+            "everaldo": 84,
+            "brancos": 3,
+            "nulos": 1,
+            "aptos": 232
+        },
+        "s84": {
+            "chiquinho": 95,
+            "everaldo": 102,
+            "brancos": 2,
+            "nulos": 3,
+            "aptos": 238
+        },
+        "s85": {
+            "chiquinho": 155,
+            "everaldo": 117,
+            "brancos": 0,
+            "nulos": 6,
+            "aptos": 328
+        },
+        "s86": {
+            "chiquinho": 148,
+            "everaldo": 126,
+            "brancos": 4,
+            "nulos": 7,
+            "aptos": 324
+        },
+        "s87": {
+            "chiquinho": 85,
+            "everaldo": 57,
+            "brancos": 2,
+            "nulos": 3,
+            "aptos": 175
+        },
+        "s88": {
+            "chiquinho": 192,
+            "everaldo": 158,
+            "brancos": 4,
+            "nulos": 3,
+            "aptos": 394
+        }
+    }
+}
