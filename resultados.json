@@ -1,10 +1,10 @@
 {
     "prefeito": {
         "s64": {
-            "chiquinho": 0,
-            "everaldo": 0,
+            "chiquinho": 153,
+            "everaldo": 114,
             "brancos": 0,
-            "nulos": 0,
+            "nulos": 7,
             "aptos": 318
         },
         "s65": {
